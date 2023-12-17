@@ -1,0 +1,23 @@
+database:
+  url: jdbc:mysql://localhost:3306/INNOVATION
+  username: INNOVATION
+  password: wqs99999
+  initialSize: 1
+  maxActive: 8
+  maxWait: 20
+spring:
+  servlet:
+    multipart:
+      max-file-size: 80MB
+server:
+  port: 8060
+  servlet:
+    context-path: /innovation
+pagehelper:
+  helperDialect: mysql
+  reasonable: true
+  supportMethodsArguments: true
+  params: count=countSql
+wx:
+  APPID: wxac09faaec00da9dd
+  APPSECRET: 08ecd10eda32929922717ba38438dbfd
