@@ -19,5 +19,5 @@ pagehelper:
   supportMethodsArguments: true
   params: count=countSql
 wx:
-  APPID: wxac09faaec00da9dd
-  APPSECRET: 08ecd10eda32929922717ba38438dbfd
+  APPID:
+  APPSECRET:
